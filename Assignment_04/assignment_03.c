@@ -6,7 +6,7 @@
 #include<errno.h>
 #include<string.h>
 
-#define BUFFER_SIZE 10
+#define BUFFER_SIZE 1024
 
 int main(int argc, char *argv[])
 {

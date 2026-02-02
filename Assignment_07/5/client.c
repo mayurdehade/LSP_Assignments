@@ -92,7 +92,7 @@ int main()
                     char src[100], dest[100];
                     int n;
 
-                    fp = (void(*)(char *, char *, int))dlsym(stringHandler, "MyStrcat");
+                    fp = (void(*)(char *, char *, int))dlsym(stringHandler, "MyStrncat");
                     if (fp == NULL) {
                         printf("Error: %s\n", dlerror());
                         break;
